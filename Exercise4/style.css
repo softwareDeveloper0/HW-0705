@@ -1,0 +1,50 @@
+.main {
+    position: relative;
+    height: 200px;
+    width: 100px;
+    margin: auto;
+}
+
+.div1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 700px;
+    width: wrap;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.div2 {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    height: 700px;
+    width: wrap;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.div3 {
+    position: absolute;
+    top: 20px;
+    left: 460px;
+    height: 700px;
+    width: wrap;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.div4 {
+    position: absolute;
+    top: 20px;
+    left: 680px;
+    height: 700px;
+    width: wrap;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+:root {
+    --width: 15%;
+}

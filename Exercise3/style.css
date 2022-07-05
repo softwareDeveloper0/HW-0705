@@ -1,0 +1,26 @@
+div#main2 .box {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    background: red;
+    transition: transform 1s;
+}
+
+div#main2 .box.TranslateIt1 {
+    transform: translate(300px);
+}
+
+div#main2 .box.TranslateIt2 {
+    transform: translate(300px, 300px);
+}
+
+div#main2 .box.TranslateIt3 {
+    transform: translate(0px, 300px);
+}
+
+div#main2 .box.TranslateIt4 {
+    transform: translate(0px, 0px);
+}

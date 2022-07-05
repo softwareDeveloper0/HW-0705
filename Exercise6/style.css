@@ -1,0 +1,41 @@
+.main {
+    position: relative;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    border: 1px dashed black;
+    }
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    height: 32px;
+    width: 32%;
+    border: 1px dashed black;
+    text-align: left;
+    }
+
+.topmenu {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    height: 32px;
+    width: 32%;
+    border: 1px dashed black;
+    text-align: left;
+    }
+
+.menu {
+    position: absolute;
+    right: 18px;
+    bottom: 0px;
+    height: 32px;
+    width: 67%;
+    border: 1px dashed black;
+    text-align: left;
+    }
+
